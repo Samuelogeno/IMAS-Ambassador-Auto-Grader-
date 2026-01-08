@@ -1,5 +1,5 @@
 # IMAS-Ambassador-Auto-Grader-
-An AI-powered grading tool for community submissions, built with Python and Google Gemini.
+An AI-powered grading tool for community photo submissions, built with Python and Google Gemini.
 
 📖 Backstory
 During the IMAS 2025 Ambassador Program, the lead team I was part of manually reviewed thousands of screenshots to rank 100+ ambassadors for grants and sponsorships. This repository contains the automated solution I built retrospectively to solve that scaling problem.
