@@ -17,3 +17,15 @@ Reporting: Exports a CSV detailed report and a final leaderboard.
 
 🧠 Reflection
 Automation is powerful, but manual review builds community. This tool is designed to assist community managers, not replace the human connection entirely.
+
+Current Limitations & Future Improvements:
+
+Duplicate & Fraud Detection: Implementing "file hashing" to instantly catch if an Ambassador uploads the exact same screenshot twice to game the system (currently implemented in V2).
+
+Cloud Native Integration: Removing the need to download files locally by connecting the script directly to the Google Drive API.
+
+Metadata/EXIF Analysis: Checking the "date taken" on photos to ensure Ambassadors aren't submitting old work as new proof.
+
+Human-in-the-Loop Flags: Instead of fully automating, the system should flag "borderline" scores (4-6/10) for human review, while auto-approving the obvious wins and auto-rejecting the bad data.
+
+Multi-Language Support: Using translation capabilities to grade submissions in languages other than English without extra effort.
