@@ -1,4 +1,4 @@
-import os
+ationaimport os
 import time
 import json
 import pandas as pd
@@ -9,7 +9,7 @@ from PIL import Image
 # ---------------- CONFIGURATION ----------------
 API_KEY = "YOUR API KEY"
 
-# Folder containing the screenshots
+# Folder containing the screenshots, same path as IMAS.py
 IMAGE_FOLDER_PATH = './ambassador_screenshots'
 
 # I used 'gemini-flash-latest' because I confirmed I have access.
@@ -20,7 +20,7 @@ MODEL_ID = 'gemini-flash-latest'
 client = genai.Client(api_key=API_KEY)
 
 SYSTEM_PROMPT = """
-You are a strict Compliance Auditor for the IMAS [Insert Full Name Here, e.g. International Martial Arts Society] Ambassador Program. 
+You are a strict Compliance Auditor for the IMAS [International Microwave and Antennas Symposium] Ambassador Program. 
 Your task is to analyze screenshot evidence submitted by ambassadors to verify their work.
 
 **STEP 1: IDENTITY EXTRACTION**
