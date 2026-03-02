@@ -29,3 +29,5 @@ Metadata/EXIF Analysis: Checking the "date taken" on photos to ensure Ambassador
 Human-in-the-Loop Flags: Instead of fully automating, the system should flag "borderline" scores (4-6/10) for human review, while auto-approving the obvious wins and auto-rejecting the bad data.
 
 Multi-Language Support: Using translation capabilities to grade submissions in languages other than English without extra effort.
+
+More info on LinkedIN: https://www.linkedin.com/posts/samuel-ochor_i-was-part-of-the-publicity-lead-team-for-activity-7415098966280798208-SuzB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACV0gGwBloTf3EGWuVsJyWnLVfmk77aWweg
