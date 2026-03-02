@@ -1,10 +1,10 @@
-# IMAS-Ambassador-Auto-Grader-
+## IMAS-Ambassador-Auto-Grader-
 An AI-powered grading tool for community photo submissions, built with Python and Google Gemini.
 
-📖 Backstory
+## 📖 Backstory
 During the IMAS 2025 Ambassador Program, the lead team I was part of manually reviewed thousands of screenshots to rank 100+ ambassadors for grants and sponsorships. This repository contains the automated solution I built retrospectively to solve that scaling problem.
 
-⚙️ How it Works
+## ⚙️ How it Works
 Scans a folder of submission screenshots (Social media posts, webinar attendance, etc.).
 
 Duplicate Check: Uses MD5 hashing to ensure no image is submitted twice.
@@ -15,10 +15,10 @@ Scoring: The AI returns a score (0-10) and a reasoning (JSON format) explaining 
 
 Reporting: Exports a CSV detailed report and a final leaderboard.
 
-🧠 Reflection
+## 🧠 Reflection
 Automation is powerful, but manual review builds community. This tool is designed to assist community managers, not replace the human connection entirely.
 
-Current Limitations & Future Improvements:
+## Current Limitations & Future Improvements:
 
 Duplicate & Fraud Detection: Implementing "file hashing" to instantly catch if an Ambassador uploads the exact same screenshot twice to game the system (currently implemented in V2).
 
@@ -30,4 +30,5 @@ Human-in-the-Loop Flags: Instead of fully automating, the system should flag "bo
 
 Multi-Language Support: Using translation capabilities to grade submissions in languages other than English without extra effort.
 
-More info on LinkedIN: https://www.linkedin.com/posts/samuel-ochor_i-was-part-of-the-publicity-lead-team-for-activity-7415098966280798208-SuzB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACV0gGwBloTf3EGWuVsJyWnLVfmk77aWweg
+## More info on LinkedIN: 
+https://www.linkedin.com/posts/samuel-ochor_i-was-part-of-the-publicity-lead-team-for-activity-7415098966280798208-SuzB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACV0gGwBloTf3EGWuVsJyWnLVfmk77aWweg
